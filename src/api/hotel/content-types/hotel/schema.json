@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotels",
+  "info": {
+    "singularName": "hotel",
+    "pluralName": "hotels",
+    "displayName": "hotel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "score": {
+      "type": "decimal"
+    },
+    "km_to_city_centre": {
+      "type": "decimal"
+    },
+    "address": {
+      "type": "richtext"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "pictures": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "price": {
+      "type": "integer"
+    },
+    "spa": {
+      "type": "boolean"
+    },
+    "balcony": {
+      "type": "boolean"
+    },
+    "internet": {
+      "type": "boolean"
+    },
+    "fitness_room": {
+      "type": "boolean"
+    },
+    "breakfast_included": {
+      "type": "boolean"
+    },
+    "bar": {
+      "type": "boolean"
+    },
+    "city": {
+      "type": "string"
+    }
+  }
+}
