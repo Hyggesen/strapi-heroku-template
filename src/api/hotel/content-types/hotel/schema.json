@@ -88,6 +88,12 @@
       "type": "component",
       "repeatable": false,
       "component": "reviews.review"
+    },
+    "order": {
+      "displayName": "order",
+      "type": "component",
+      "repeatable": false,
+      "component": "orders.order"
     }
   }
 }

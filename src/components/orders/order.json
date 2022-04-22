@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_orders_orders",
+  "info": {
+    "displayName": "order",
+    "icon": "calendar-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "from_date": {
+      "type": "date"
+    },
+    "to_date": {
+      "type": "date"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "guests": {
+      "type": "integer"
+    }
+  }
+}
