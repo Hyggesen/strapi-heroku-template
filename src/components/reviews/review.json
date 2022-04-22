@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_reviews_reviews",
+  "info": {
+    "displayName": "review",
+    "icon": "comments"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "text"
+    }
+  }
+}

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "hotel",
     "pluralName": "hotels",
-    "displayName": "hotel"
+    "displayName": "hotel",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,7 +20,7 @@
       "type": "text"
     },
     "score": {
-      "type": "decimal"
+      "type": "integer"
     },
     "km_to_city_centre": {
       "type": "decimal"
@@ -28,24 +29,26 @@
       "type": "richtext"
     },
     "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "pictures": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "price": {
       "type": "integer"
@@ -70,6 +73,21 @@
     },
     "city": {
       "type": "string"
+    },
+    "headlight_feature_1": {
+      "type": "string"
+    },
+    "headlight_feature_2": {
+      "type": "string"
+    },
+    "headlight_feature_3": {
+      "type": "string"
+    },
+    "review": {
+      "displayName": "review",
+      "type": "component",
+      "repeatable": false,
+      "component": "reviews.review"
     }
   }
 }
