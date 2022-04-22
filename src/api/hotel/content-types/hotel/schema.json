@@ -39,17 +39,6 @@
         "audios"
       ]
     },
-    "pictures": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "price": {
       "type": "integer"
     },
